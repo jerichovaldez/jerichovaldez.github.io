@@ -1,0 +1,52 @@
+body{
+	background: url(../ig.gif);
+	background-size: cover;
+}
+.city {
+    
+    color: black;
+    padding: 30px;
+    font-size: 48px;
+}
+	
+image{
+	margin: 0;
+	padding: 0;
+	border-radius: 20px;
+	border: 1px solid black;
+	-webkit-border-radius: 20px;
+	border-image-width: 20px;
+	border-image: 20px;
+	align-content: center;
+	margin-bottom: 5px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: yellow;
+}
+ul li{
+	float: left;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	background-color: black;
+	opacity: .8;
+	line-height: 35px;
+	margin-right: 5px;
+}
+ul li a{
+	text-decoration: none;
+	color: yellow;
+	display: block;
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
